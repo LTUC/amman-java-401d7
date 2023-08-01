@@ -1,0 +1,285 @@
+{
+  "course-code": "seattle-code-java-401d13",
+  "lectures": {
+    "module-01": {
+      "class-01": {
+        "title": "Kickoff and Intro to Java",
+        "link": "https://zoom.us/rec/play/hxyePuAz5vv2tVJDtWFJR76HMFxBmR3Yz1PrTJCbFJLXHTcrw8nGLYIqvr7QIm7jl2L1IoqUqjk7ELoF.giVpohN7ridq7ptF?startTime=1666627269000",
+        "date": "1666627269000",
+        "instructor": "Alex White"
+      },
+      "class-02": {
+        "title": "Intro To Java, Part 2",
+        "link": "https://zoom.us/rec/play/MZSLYGuS7WuqnL1q0CDKhMaotz0GGoO6rzVgIBvhS15rLvekR2z81zyvNjsEWUX2Y0vWPKJLJizCM1IP.upIFfPUlfausCWmu?continueMode=true",
+        "date": "1669654835000",
+        "instructor": "Alex White"
+      },
+      "class-03": {
+        "title": "Maps/Sets, Packages, File I/O, and Exceptions",
+        "link": "https://zoom.us/rec/play/Opl6exgJ3JIsxofnJ1z4G_QD4KC112n3BvkHZgJorxc8xGhUMQNvG8wdXxt1Z4KkXHP4q8be-dT_xX75.ja8ZufIh_sOzXshC?continueMode=true",
+        "date": "1669654835000",
+        "instructor": "Alex White"
+      },
+      "class-04": {
+        "title": "Object-Oriented Programming, Domain Modeling, Command-Line Arguments, And Bitmaps",
+        "link": "https://zoom.us/rec/play/mPi-7s5IaGBGVOSdQsccklLyE2jWoZuBqlx2fHZH1-iS2acq4fC2DSMz2ug8leuIOqU6l7rpPU295HE.qHUWpe3cckFTeUKb?continueMode=true",
+        "date": "1669654835000",
+        "instructor": "Alex White"
+      },
+      "class-05-career-coaching-workshop-01": {
+        "title": "Resume Workshop",
+        "link": "https://zoom.us/rec/play/Y5F-yy5-ed9m5DX4V-PSrz9LE2XfTLhjV7Sx5j-bH6VYTrLt1xSNpMcUic6rPAJiNd8TeT7GFt2dxbD5.FdMZiko5QNK-JVvi?startTime=1666972864000",
+        "date": "1666972864000",
+        "instructor": "JB Tellez"
+      },
+      "class-05-dsa-linked-lists": {
+        "title": "Linked Lists",
+        "link": "https://zoom.us/rec/play/6Bcu78YGX00ePgLgxpOuuwlbtHpeDeBUXAzZ0v4hmbzulNYQNvDNRhBlS6g_mtyEzyDyNw42f_k1-5su.nZySvpsE0a2-O-aU?startTime=1666992697000",
+        "date": "1666992697000",
+        "instructor": "JB Tellez"
+      }
+    },
+    "module-02": {
+      "class-06": {
+        "title": "",
+        "link": "https://zoom.us/rec/play/HoIHpk_IB6mquIi34wO9SfHfvmjlHujdw-ZbsCP_hhoRr76pWboaN8rLZfX9nYYIpwVQefpYnclBzRTx.rAv_6CgqMxmsOPrn?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-07": {
+        "title": "",
+        "link": "https://zoom.us/rec/play/MFd-oeldZAUMRg7OszW29qEMe_H6u-mPoR8pVymdi25CMnYK0ezYiv-v9TVFUt1tZjM7ll1Fc02Wn0kM.S6i9xATeQ1TF50mS?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-08": {
+        "title": "JSON & External Libraries",
+        "link": "https://zoom.us/rec/play/G_56T7fc_GaMNIsK18sV2hcuDJhFnlV5I6D2v58wM0GXhu9YNMDVDVzYrp2eYZ1mrn5xI2DPahW5HIyw.78qNsX_hmK-XL5sw?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-09": {
+        "title": "Java And The Web Request-Response Cycle",
+        "link": "https://zoom.us/rec/play/kFH0OqPQxpaonhxUH7m4VKCpsotr41woj_WWvZrWtUR4OfFxwL753kyjhncWfevWfieZP62x_cZE9HXZ.EWUgeMHQ7H92qQVA?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-10-career-coaching-workshop": {
+        "title": "Personal Pitch Workshop",
+        "link": "https://zoom.us/rec/play/IUEMz36ZRHglmsPkhnVeNu3Nv01bZVYIfnVDelfkc-C5x--ycCRSeuy_ZHwkqjnzQjAbAil93ozDpqGc.99s59DN9ZkJCEDqf?startTime=1667595646000",
+        "date": "1667595646000",
+        "instructor": "JB Tellez"
+      },
+      "class-10-dsa-stacks-and-queues": {
+        "title": "Stacks & Queues",
+        "link": "https://zoom.us/rec/play/B8fGDO_GuVoEqmoQhl-GWn_VDrkX7-X1MFhrvHUiTv5LCCHekJMZOZLkgdOMbz52P948vLj90ez5DOw-.HV7mldTT_BT4RGVH?startTime=1667595646000",
+        "date": "1667595646000",
+        "instructor": "JB Tellez"
+      }
+    },
+    "module-03": {
+      "class-11": {
+        "title": "Intro to Spring MVC",
+        "link": "https://zoom.us/rec/play/DUU3j7UruYiibuBAL62UdLBs-flpRNHLqXOWQ1apJcUlLrGHyu7de_qwYSkdZZQ9ahKEVnlD0_UUvnYM.rFOA8r2kljsDyL7A?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-12": {
+        "title": "Spring, RESTful Routing, And Persistence",
+        "link": "https://zoom.us/rec/play/hSEWK7UVtXYxWTsBs9gBRbqQ6VRYJ_FrUsuDlZV27Ekt34G90yg97e752xQ9szHZRonONEFKjmRoiXf9.SBPJitpYhnRC12cQ?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-13": {
+        "title": "More JPA, And Integration Testing",
+        "link": "https://zoom.us/rec/play/ppDXDRlSoWKfNujEyU8tstyZGLBSPFboD5FymKyaZyn_gqGkP1mreJ2C5Dz3uoo4FA9yXKcLPWC4BNrd.UPrZmSIRteBOjLke?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-14": {
+        "title": "Authentication With Bcrypt And Sessions",
+        "link": "https://zoom.us/rec/play/2hoU7dKv8FYf1u9lqX46VSG9XellXoxLMuTbhNSCC8VnPXF_nsddDLPvbB_EujkyAWLVlxd_bxEjyoGi.VMwiMBi3BQGnKL5p?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-15-career-coaching-workshop-03": {
+        "title": "Job Search Workshop",
+        "link": "https://zoom.us/rec/play/rABlxu9No7D8lpQr38Ykgm_vIXpH5Mc7UBgwD6nKqy6G5DJtxrR_7otCipW7I2SqEiR3MgfnQ5vkLoG9.tWQo5TSpRVx30aCi?startTime=1668204274000",
+        "date": "1668204274000",
+        "instructor": "Robin Apparicio"
+      },
+      "class-15-dsa-trees": {
+        "title": "Trees",
+        "link": "https://zoom.us/rec/play/NiXZcRqLd-LnQH48y3XmDh2LuOGbAQC9m12-f0ZG5tHJFJxlyVC2fiwI3u59kSG3y4kqWSTtyUCZVnu2.3nRY0weEqO8R9Fjm?startTime=1668186108000",
+        "date": "1668186108000",
+        "instructor": "JB Tellez"
+      }
+    },
+    "module-04": {
+      "class-16": {
+        "title": "Creating User Accounts and Authenticating Users",
+        "link": "https://zoom.us/rec/play/hVkp6Fd4CxKVxv1qX7CJ_udMpz9_2s5C5vNqNU0rPh3ict0CxJtn-wEkv2GorZDHxs2bPMEovS5OISRY.RSZsf9RVK95dOY0W?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-17": {
+        "title": "Authorizing Users to View Secured Content",
+        "link": "https://zoom.us/rec/play/1v8Kt0wch_Iq6_zOTiuYrtCwL-R8henUMb55UlsIE9dpEYMgGuLrpJEf4noPXXpwWpMm3O9n_dgZkFYc.NecL1no0VDDJEQrK?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-18": {
+        "title": "Sanitizing User Input, And Many-To-Many Relationships",
+        "link": "https://zoom.us/rec/play/yKGpGCMBi0KgSWltb__CtKQR9bZyp-e9uZ7rXAA7WxmHXWGlyngqRrwOlM0xvyJt7Xi4XvO57QK3lqRt.gS3W7LDF8AQjJ2oV?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-19": {
+        "title": "Stream Processing Using Collections And Lambdas",
+        "link": "https://zoom.us/rec/share/2M0v7Y9bnVfYYXUIS8YQnWZLoxHtHJKTMsBvVHwXM2zPHcXzH-8dEr0xF17itsub.t1D4UfbfF4esFfiv",
+        "date": "1000000000",
+        "instructor": "Rey Oliva"
+      },
+      "class-20": {
+        "title": "Project Week Kickoff",
+        "link": "https://www.youtube.com/watch?v=8v2LhOwxh5Y",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      }
+    },
+    "module-06": {
+      "class-26": {
+        "title": "Android Basics - Activities, Layouts, Event Handlers, And Intents",
+        "link": "https://zoom.us/rec/play/P3uvR8fMcudWaHg4YJVLxeXvGNIBbomlIUjuI7EfPfn8i0EklaWyKhLs4jzclUEu6dHCKZdGFhkO-e70.wwj1P5jjk8vu858-?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-27": {
+        "title": "SharedPreferences, Passing Data With Extras, And Integration Testing",
+        "link": "https://zoom.us/rec/play/f7Ff3kD1nbP4wLnBjlosCcxIbhUmDoNeSvITAZBdE0lL6rB6lgExx7WfFRms0GY7_3KUQ4IbDhZN5is6.fjn9qRVZ9flLHd51?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-28": {
+        "title": "RecyclerViews",
+        "link": "https://zoom.us/rec/play/JxAIj9GX_L9W8UZbcukG34XQj-bpj6SPtoeF5ntqXXO3GvPXGdNAuIhMExv5fEgHBSgumBd95c_2xVfb.ZzmJkwAqP_8kayIS?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-29": {
+        "title": "Room",
+        "link": "https://zoom.us/rec/play/5JLLXvmFR1kSXunfahQlS4P1Kw7gPhBu41P6VQ8DewVCUYeppJdRMXCq14eoZ3dpWwRREK9F4bRJJAGI.ccds-jjPONypGgSb?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-30-career-coaching-workshop-04": {
+        "title": "Behavioral Interviews Workshop",
+        "link": "https://zoom.us/rec/play/xLpSp3RE88PVAxUBcwK0ixHzcniQNcnksNtK5dvJkrdOz1Gt89FwfByeLur99qqZtUChg-LodRQdRbXa.PvBLK-IpODwB-tFQ?startTime=1670018737000",
+        "date": "1670018737000",
+        "instructor": "John Cokos"
+      },
+      "class-30-dsa": {
+        "title": "Hash Tables",
+        "link": "https://zoom.us/rec/play/0AwgVxjwADAcW6BzOBCW0BaC_hcsjzoolA9dyEreHNyOZjXHXrkzPRwgUsIE7wJRmoOBpIIjaOYd_uw9.9BhDHnwkmBDKNY6T?continueMode=true",
+        "date": "1000000000",
+        "instructor": "JB Tellez"
+      }
+    },
+    "module-07": {
+      "class-31": {
+        "title": "AWS Amplify, Part 1",
+        "link": "https://zoom.us/rec/play/ld6AIjX9L6EFmQzf0bTsmakoo01FFlc3UVoKbP_sVSaBhMisnTPxLYnGq5HnRI5WDeYwFlqnsV3QiZBV.jp1Q0cM7gGN-Ki6d?startTime=1670433861000",
+        "date": "1670433861000",
+        "instructor": "Alex White"
+      },
+      "class-32": {
+        "title": "AWS Amplify, Part 2",
+        "link": "https://zoom.us/rec/play/Pm1Y967r8t_o1OxuszE2uDxaDhFOaWyLsxsE65U8YIHysjLR3iXEvb1Mvs96rCUqYUZj8XpllJE911JQ.hzNs1Oy-Xj7bt9Hd?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-33": {
+        "title": "One-To-Many / Many-To-One Relationships In GraphQL And DynamoDb",
+        "link": "https://zoom.us/rec/play/lrJ9xIL9tBEPDCRmC5DjQPA4xqM-H_9i9SyCtQMFGjMtjcVfKc0WWtqO-iPLIkeUkhmYYuYiiPh3GrRu.SVlnnVaqF-6jbUd0?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-34": {
+        "title": "Publishing To The Google Play Store",
+        "link": "https://zoom.us/rec/play/ykJRoR0VTFhQhh9nkgb0RtRgxg_sqLVahmKu3FfhVHyIfsdf2KCNu5Woau2EKx09I96DPLtgVDYiRWlj.gzXr1d090-3deFuy?startTime=1671123872000",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-35-career-coaching-workshop-05": {
+        "title": "Technical Interviewing Workshop",
+        "link": "https://zoom.us/rec/play/-Fyid3zggiduVRadNkpMfGcK_990GFTzoLwAoZgK9Nu37f142XUMBpllAW44L8aJRGCzvUTQBz_X3Pw._-tV-VeiqiXdfhcw?startTime=1670606853000",
+        "date": "1670606853000",
+        "instructor": "Alex White"
+      },
+      "class-35-dsa": {
+        "title": "Graphs",
+        "link": "https://zoom.us/rec/play/PkVHQILuH40FpaXh0bR__8QN61fnIYBjOw4B5A4p1qfCfUBmhdhFt_69AGZHMM1QUCgU4_JMd0YhDClO.4nnD2e9sA4O2YGuo?startTime=1670623437000",
+        "date": "1670623437000",
+        "instructor": "Alex White"
+      }
+    },
+    "module-08": {
+      "class-36": {
+        "title": "Authentication With Cognito",
+        "link": "https://zoom.us/rec/play/gYjVJgmzOPfRN7XkrS5h1-Yzd9Vi5OvuIux414a1gvpKMYSMZ3YB3nQZIqLzpHUot2JwVl0PQc-4MToT.8ISeBB_0zgXu4imY?startTime=1670951015000",
+        "date": "1670951015000",
+        "instructor": "Alex White"
+      },
+      "class-37": {
+        "title": "S3 Storage",
+        "link": "https://zoom.us/rec/play/uFTeUr_ClMlr7f5alM_9sWoEy8OL81bJF8vXBgxG0Pljc7861P4_QUfMqgJIqytLEOSklyBpRC1yw1IE.JjKM23mMSf0SPCYb?startTime=1671041506000",
+        "date": "1671041506000",
+        "instructor": "Alex White"
+      },
+      "class-38": {
+        "title": "Intent Filters",
+        "link": "https://zoom.us/rec/share/TNS6c7MmJfmwRlZyM4tiQNDfRxWGukBzY-9xH0CuZryrEj66MhFZEnnllMQXWesQ.l3NnFMmXDwuNhQu3",
+        "date": "1000000000",
+        "instructor": "Ed Younskevicius"
+      },
+      "class-39": {
+        "title": "Location",
+        "link": "https://zoom.us/rec/play/g222w1afzECAvkYuNr3A93SNvlhpBRFTdgHsSWsPri16DMvtEomPLR-1PlUOjEV5iEGtShZP-vMQxjwt.3jirndrw3J9lONBL?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      },
+      "class-40-coaching-workshop-06": {
+        "title": "Personal Pitch Workshop",
+        "link": "https://zoom.us/rec/play/B_N-BoTPR2hTDlMUAoUePyGFFCNB2AkGRjL1HftkTbNAuCKcjyxM1hNjKfiH5Pmh6YJR1rSAwingZdKG.dgu4RxxPzUbRpAZ6?continueMode=true",
+        "date": "1000000000",
+        "instructor": "Alex White"
+      }
+    },
+    "module-09": {
+      "class-41": {
+        "title": "Analytics And Text-To-Speech",
+        "link": "https://zoom.us/rec/play/T93-MMY9-q4v-FXr8lGdQEPqnZUYfk-6csWtoEGOJhT8eV3Qr-POvPBZdUoBd-7_hhhYZOk3TxWkwa8.wmiBaqh4GpUKRANk?startTime=1671557912000",
+        "date": "1671557912000",
+        "instructor": "Alex White"
+      },
+      "class-42": {
+        "title": "Monetization And AdMob Ads",
+        "link": "https://zoom.us/rec/play/cnnQ7Hm7MIXh_3NBlmVHmfKjqMUT8qrQvujGoEL-6sf8oKZYOwj_9DalANXGuyneeMqP13q-jTmPD-km.21Jc5p-S17h17sSS?startTime=1671642178000",
+        "date": "1671642178000",
+        "instructor": "Alex White"
+      },
+      "class-43": {
+        "title": "Open Source Contribution",
+        "link": "https://zoom.us/rec/play/Bbg8B8hpV0EZTDt88V4xoq6sD6CEmmH-DeGEYp0F16KxzzqEOqhGUr0TYks56iBS2UYWMCjx1o3xzyYs.gCiLIJ0tgLyuDLvd?startTime=1669656369000",
+        "date": "1669656369000",
+        "instructor": "Alex White"
+      },
+      "class-44": {
+        "title": "Ethics",
+        "link": "https://zoom.us/rec/share/Chx5tDPOGNHTCAcPX7ktbsNqHmlUWrEmcgIfM8H6f-2zKrWV0iYLeXf_ZM5StH-i.wwXIQzO_obxGe1WD?startTime=1671728726000",
+        "date": "1671728726000",
+        "instructor": "Alex White"
+      }
+    }
+  }
+}
