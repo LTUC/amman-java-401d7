@@ -3,9 +3,70 @@
  */
 package maps;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Set;
+
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class AppTest {
+
+    @Test
+    void testGetUniquesStudentNames_EmptyList() {
+        // Arrange
+        ArrayList<String> studentNames = new ArrayList<>();
+
+        // Act
+        Set<String> actualUniquesStudentNames = App.getUniquesStudentNames(studentNames);
+
+        // Assert
+        assertTrue(actualUniquesStudentNames.isEmpty());
+    }
+
+    @Test
+    void testGetUniquesStudentNames_SingleName() {
+        // Arrange
+        ArrayList<String> studentNames = new ArrayList<>();
+        studentNames.add("foo");
+
+        // Act
+        Set<String> actualUniquesStudentNames = App.getUniquesStudentNames(studentNames);
+
+        // Assert
+        assertEquals(1, actualUniquesStudentNames.size());
+        assertTrue(actualUniquesStudentNames.contains("foo"));
+    }
+
+    @Test
+    void testGetUniquesStudentNames_MultipleNames() {
+        // Arrange
+        ArrayList<String> studentNames = new ArrayList<>();
+        studentNames.add("42");
+        studentNames.add("foo");
+
+        // Act
+        Set<String> actualUniquesStudentNames = App.getUniquesStudentNames(studentNames);
+
+        // Assert
+        assertEquals(2, actualUniquesStudentNames.size());
+        assertTrue(actualUniquesStudentNames.contains("foo"));
+        assertTrue(actualUniquesStudentNames.contains("42"));
+    }
+
+    @Test
+    void testGiveAnswer() {
+        // Arrange
+        HashMap<String, Integer> answerCounts = new HashMap<>();
+
+        // Act
+        App.giveAnswer(answerCounts, "Answer");
+
+        // Assert
+        assertEquals(1, answerCounts.size());
+    }
 
 }
