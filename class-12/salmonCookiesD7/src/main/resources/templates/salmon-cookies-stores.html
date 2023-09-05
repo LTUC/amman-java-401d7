@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Salmon Cookies Stores</title>
+</head>
+<body>
+<ul th:each="salmonStore : ${stores}">
+  <li th:text="'Store name: ' + ${salmonStore.name}"></li>
+  <li th:text="'Date that cookie Creates at: ' + ${salmonStore.dateTime}"></li>
+
+  <a th:href="@{'/delete?salmonCookieId=' + ${salmonStore.id}}"
+     onclick="return confirm('Are you sure you want to delete this store?')">Delete Store</a>
+
+
+</ul>
+
+<form action="/create-salmon" method="post">
+  <fieldset>
+    <legend>Add Salmon Cookies Store</legend>
+    <label for="name">Store Name</label>
+    <input type="text" name="name" id="name">
+    <input type="submit" value="Add Store">
+  </fieldset>
+</form>
+</body>
+</html>
