@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Salmon Cookies Stores</title>
+</head>
+<body>
+<h1>Salmon Cookie Store Manager</h1>
+<ul th:each="salmonStore : ${stores}">
+  <li th:text="'Store name: ' + ${salmonStore.name}"></li>
+  <li th:text="'Average cookies per day: ' + ${salmonStore.averageCookiesPerDay}"></li>
+  <div>Employees:</div>
+  <ul th:each="employee : ${salmonStore.employees}">
+    <li th:text="${employee.name}"></li>
+  </ul>
+  <form action="/add-employee" method="post">
+    <fieldset>
+      <legend>Add Employee To This Store</legend>
+      <label for="employeeName">Employee Name</label>
+      <input type="text" name="name" id="employeeName">
+      <label for="pricePerHour">Price Per Hour</label>
+      <input type="text" name="pricePerHour" id="pricePerHour">
+      <input type="hidden" name="storeId" th:value="${salmonStore.id}">
+      <input type="submit" value="Add Employee To Store">
+    </fieldset>
+  </form>
+
+  <form th:action="'/update/' + ${salmonStore.id}" th:method="post">
+    <fieldset>
+      <legend>Add Employee To This Store</legend>
+      <input type="hidden" name="_method" value="PUT">
+      <label for="newName">New Name</label>
+      <input type="text" name="newName" id="newName" placeholder="New Store Name">
+      <label for="averageCookiesPerDay">New Average Cookies Per Day</label>
+      <input type="text" name="averageCookiesPerDay" id="averageCookiesPerDayg" placeholder="New Average Cookies Per Day">
+      <input type="submit" value="Update Store">
+    </fieldset>
+  </form>
+
+  <form th:action="'/delete/' + ${salmonStore.id}" th:method="post">
+    <input type="hidden" name="_method" value="DELETE">
+    <input type="submit" value="Delete Store">
+  </form>
+
+
+</ul>
+
+<form action="/" method="post">
+  <fieldset>
+    <legend>Add Salmon Cookies Store</legend>
+    <label for="storeName">Store Name</label>
+    <input type="text" name="name" id="storeName">
+    <label for="averageCookiesPerDay">Average Cookies Per Day</label>
+    <input type="text" name="averageCookiesPerDay" id="averageCookiesPerDay">
+    <input type="submit" value="Add Store">
+  </fieldset>
+</form>
+</body>
+</html>
