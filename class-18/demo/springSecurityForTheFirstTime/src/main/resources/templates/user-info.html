@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h3 th:if="${username != null}" th:text="${'Current user: ' + username + ' with created date ' + createdDate}"></h3>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<div th:replace="/fragments/error-fragment :: dino-error"></div>
+<h1 th:text="${'User info for user id: ' + dinoUserId}"></h1>
+
+<!-- class 18 -->
+<form th:action="${'/manage-user/' + dinoUserId}" th:method="PUT">
+    <input type="submit" value="Manage This Dinosaur">
+</form>
+<form th:action="${'/employee-of-user/' + dinoUserId}" th:method="PUT">
+    <input type="submit" value="Employ This Dinosaur">
+</form>
+<form th:action="${'/users/' + dinoUserId}" th:method="DELETE">
+    <input type="submit" value="Delete This Dinosaur">
+</form>
+<!-- this is the old way
+<label for="username">Username 1</label>
+<div id="username" th:value="${dinoUserUsername}" type="text" name="username"></div>
+    <label for="createddate">userCreatedDate 1</label>
+    <div id="createddate" th:value="${dinoUserCreatedDate}" type="text" name="createddate"></div>
+        <div th:text="${'testDate: ' + #temporals.format(testDate, 'yyyy-MM-dd HH:mm:ss')}"></div>
+-->
+<!-- this is the new way -->
+<form th:action="${'/users/' + dinoUserId}" th:method="PUT">
+    <label for="username">Username</label>
+    <input id="username" th:value="${dinoUserUsername}" type="text" name="username" th:disabled="${!username.equals(dinoUserUsername)}">
+    <label for="createddate">Created At</label>
+    <input id="createddate" th:value="${dinoUserCreatedDate}" type="text" name="localDate" th:disabled="${!username.equals(dinoUserUsername)}">
+    <input th:if="${username.equals(dinoUserUsername)}" type="submit" value="Edit User Info">
+</form>
+
+<!-- class 18 -->
+<h3>Managers:</h3>
+<ul th:each="manager : ${dinoUserManagers}">
+    <ol th:text="${manager.username}"></ol>
+</ul>
+<h3>Employees:</h3>
+<ul th:each="employee : ${dinoUserEmployees}">
+    <ol th:text="${employee.username}"></ol>
+</ul>
+
+<!--is the #temporals utility being used to format the testDate variable as a string
+with the specified date and time format pattern 'yyyy-MM-dd HH:mm:ss' -->
+<!--<div th:text="${'testDate: ' + #temporals.format(testDate, 'yyyy-MM-dd HH:mm:ss')}"></div>-->
+
+<a href="/logout">Log out</a>
+</body>
+</html>

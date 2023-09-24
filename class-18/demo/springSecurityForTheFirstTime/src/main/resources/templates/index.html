@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h3>Test h3</h3>
+<!--
+* This line uses the th:replace attribute to replace the content of the <div> element.
+* /fragments/nav-header is the path to the fragment/template that you want to include.
+  It suggests that the fragment/template is located in a directory named "fragments" in
+  your project's root.
+
+* :: h3 specifies the fragment's fragment name that you want to include. In this case, it's asking for the fragment named "h3" from the specified template.
+The content of the <div> element will be replaced with the content of the "h3" fragment from the "nav-header" template.
+
+ -->
+<div th:replace="/fragments/nav-header :: h3"></div>
+<div th:replace="/fragments/nav-header :: dino-header"></div>
+<h1>Welcome to DinoBook, the best home for dinos on the internet!</h1>
+
+<a th:if="!${username}" href="/login">Log In</a>
+<br>
+<a th:if="!${username}" href="/signup">Or Sign Up</a>
+<a th:if="${username}" href="/logout">Log Out</a>
+</body>
+</html>
