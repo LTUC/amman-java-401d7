@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BuyStuff</string>
+    <string name="button">Button</string>
+    <string name="submit_your_order">submit your Order</string>
+    <string name="product_name">Name</string>
+    <string name="welcoming_words">welcome to my android app the first one</string>
+    <string name="an_image_for_testing">an image for testing</string>
+    <string name="order">Order</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="put_a_product_name_here">Put a product name here</string>
+    <string name="welcoming_words_V_2">Nickname</string>
+    <string name="user_profile_image_view_and_it_just_for_testing">user profile image view and it just for testing</string>
+    <string name="your_nickname_goes_here">your Nickname goes here</string>
+    <string name="save">Save</string>
+    <string name="nickname_with_input">Nickname: %1$s</string>
+    <string name="user_nickname_will_goes_here">user nickname will goes here</string>
+</resources>
