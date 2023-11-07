@@ -1,0 +1,22 @@
+{
+  "api": {
+    "buystuff": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDate": "2024-01-06T07:52:02.271Z",
+              "apiKeyExpirationDays": 60,
+              "description": "this API key is for the models to be generated in the cloud and its from class-32"
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  }
+}
