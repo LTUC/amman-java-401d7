@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "buystuff",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 60,
+      "apiKeyExpirationDate": "2024-01-20T09:45:25.165Z",
+      "keyDescription": "this API key is for the models to be generated in the cloud and its from class-32"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}
