@@ -1,0 +1,14 @@
+{
+    "resourceName": "translateText386fa9ffbuystuff",
+    "convertPolicyName": "translateTextPolicy386fa9ff",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "convertType": "translateText",
+    "sourceLang": "en",
+    "targetLang": "de",
+    "access": "authAndGuest"
+}
